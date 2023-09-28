@@ -1,0 +1,108 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+}
+
+header {
+    background-color: #9F8C76;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out; /* Animasi ketika gambar profil dihover */
+}
+
+header img:hover {
+    transform: scale(1.1); /* Perbesar gambar saat dihover */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out; /* Animasi saat konten dihover */
+}
+
+main:hover {
+    transform: scale(1.02); /* Perbesar konten saat dihover */
+}
+
+section {
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease-in-out; /* Animasi ketika bagian dihover */
+}
+
+section:hover {
+    background-color: #f5f5f5; /* Ganti warna latar saat dihover */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #333;
+    transition: color 0.3s ease-in-out; /* Animasi perubahan warna saat link dihover */
+}
+
+a:hover {
+    color: #555; /* Ganti warna saat link dihover */
+}
+
+section#sosial-media img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out; /* Animasi saat ikon sosial media dihover */
+}
+
+section#sosial-media img:hover {
+    transform: scale(1.2); /* Perbesar ikon saat dihover */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+
+#scroll-to-top {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out; /* Animasi perubahan warna saat tombol dihover */
+}
+
+#scroll-to-top:hover {
+    background-color: #555; /* Ganti warna saat tombol dihover */
+}
